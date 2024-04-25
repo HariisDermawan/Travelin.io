@@ -1,6 +1,6 @@
 # Website Traveling
 
-![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)
+![alt text](?raw=true)
 
 # UI&UX
 - Figma
