@@ -1,11 +1,11 @@
-# Website Traveling
+# Project Website travelin
 
 ![alt text](https://github.com/HariisDermawan/Travelin.io/blob/main/frontend/img/UI/UI.png?raw=true)
 
 
 
 
-
+![alt text](https://github.com/HariisDermawan/Travelin.io/blob/main/frontend/img/lg3.png?raw=true)
 
 # UI&UX
 - Figma
