@@ -1,6 +1,6 @@
 # Website Traveling
 
-![alt text](?raw=true)
+![alt text](https://github.com/HariisDermawan/Travelin.io/blob/main/frontend/img/UI/UI.png?raw=true)
 
 # UI&UX
 - Figma
