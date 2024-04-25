@@ -2,6 +2,11 @@
 
 ![alt text](https://github.com/HariisDermawan/Travelin.io/blob/main/frontend/img/UI/UI.png?raw=true)
 
+
+
+
+
+
 # UI&UX
 - Figma
 
@@ -26,11 +31,11 @@ dan aktivitas menarik di tujuan impian Anda.
 
 ## Tech
 
-Dillinger uses a number of open source projects to work properly:
-
-- [Figma](https://www.figma.com/) - platform desain kolaboratif yang memungkinkan tim untuk bekerja bersama secara real-time dalam membuat prototipe, desain antarmuka pengguna (UI), dan desain grafis. Dengan fitur-fitur yang intuitif dan kemampuan kolaborasi yang kuat, Figma memungkinkan desainer untuk menciptakan produk digital dengan lebih efisien dan efektif.
+Travelin uses a number of open source projects to work properly:
+- [Figma](https://www.figma.com/) - platform desain kolaboratif untuk membuat prototipe dan desain
 - [HTML 5] - HyperText Markup Language
 - [CSS] - Cascading Style Sheets
+- [JS] - Java Script
 - [Bootstrap 5] - framework
 
 ## Installation
