@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelin</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="frontend/bootstrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="frontend/style/main.css">
+    <link rel="stylesheet" href="frontend/dist/xzoom.css">
+</head>
+
+<body>
+
+    <!--nav-->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand" href="#">
+                <img src="frontend/img/lg3.png" alt="">
+            </a>
+            <button class="navbar-toggler navbar-right" type="button" data-toggle="collapse" data-target="#navB"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa-solid fa-bars"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navB">
+                <ul class="navbar-nav ml-auto mr-3">
+                    <li class="nav-item mx-md-2">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a class="nav-link" href="#">Paket Travel</a>
+                    </li>
+                    <li class="nav-item mx-md-2 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                            aria-expanded="false" id="navbarDrop">
+                            Service
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a class="nav-link" href="#">Testimonial</a>
+                    </li>
+                </ul>
+                <!-- Mobile Button -->
+                <form class="form-inline d-sm-block d-md-none">
+                    <button class="btn btn-login my-2 my-sm-0">Masuk</button>
+                </form>
+                <!-- End Mobile Button -->
+
+                <!-- Desktop Button -->
+                <form class="form-inline my-2 my-lg-0 d-none d-md-block ">
+                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">Masuk</button>
+                </form>
+                <!-- End Desktop Button -->
+            </div>
+        </nav>
+    </div>
+    <!-- en dNav -->
+
+    <!-- Details -->
+    <main>
+        <section class="section-details-header"></section>
+        <section class="section-details-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col p-3">
+                        <nav>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    Paket Travel
+                                </li>
+                                <li class="breadcrumb-item active">
+                                    Details
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 pl-lg-0 mt-2">
+                        <div class="card card-details">
+                            <h1>Beach Ao Nang</h1>
+                            <p>Republic of thailand</p>
+                            <div class="gallery">
+                                <div class="xzomm-container">
+                                    <img src="frontend/img/details.png" class="xzoom" id="xzoom-default"
+                                        xoriginal="frontend/img/details.png">
+                                </div>
+                                <div class="xzoom-thumbs">
+                                    <a href="frontend/img/4.png">
+                                        <img src="frontend/img/detailss1.png" class="xzoom-gallery" width="128"
+                                            xpreview="frontend/img/frontend/img/detailss1.png">
+                                    </a>
+                                    <a href="frontend/img/4.png">
+                                        <img src="frontend/img/detailss2.png" class="xzoom-gallery" width="128"
+                                            xpreview="frontend/img/frontend/img/detailss2.png">
+                                    </a>
+                                    <a href="frontend/img/4.png">
+                                        <img src="frontend/img/details5.png" class="xzoom-gallery" width="128"
+                                            xpreview="frontend/img/frontend/img/details5.png">
+                                    </a>
+                                    <a href="frontend/img/4.png">
+                                        <img src="frontend/img/detailss4.png" class="xzoom-gallery" width="128"
+                                            xpreview="frontend/img/frontend/img/detailss4.png">
+                                    </a>
+                                    <a href="frontend/img/4.png">
+                                        <img src="frontend/img/detaills7.png" class="xzoom-gallery" width="128"
+                                            xpreview="frontend/img/frontend/img/detaills7.png">
+                                    </a>
+                                </div>
+                            </div>
+                            <h2>Tentang Pantai Ao.Nang</h2>
+                            <p>Pantai Ao Nang di Krabi, Thailand adalah salah satu
+                                tujuan pantai paling populer dan indah di Asia Tenggara.
+                                Apakah Anda mencari petualangan, relaksasi, hiburan,
+                                atau keahlian memasak, Pantai Ao Nang
+                                memiliki sesuatu untuk semua orang.</p>
+
+                            <p>Pantai Ao Nang terletak di provinsi Krabi, di pantai barat
+                                Thailand selatan. Ini adalah sekitar 20 kilometer
+                                dari Kota Krabi dan 30 kilometer dari Bandara Krabi.</p>
+
+                            <div class="features row">
+                                <div class="col-md-4 ">
+                                    <img src="frontend/img/ic1.png" alt="icon" class="feature-image">
+                                    <div class="description">
+                                        <h3>FEATURED EVENT</h3>
+                                        <p>Tari Kecak</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 border-left">
+                                    <img src="frontend/img/ic2.png" alt="icon" class="feature-image">
+                                    <div class="description">
+                                        <div class="description">
+                                            <h3>LANGUAGE</h3>
+                                            <p>Bahasa Indonesia</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 border-left">
+                                    <img src="frontend/img/ic3.png" alt="icon" class="feature-image">
+                                    <div class="description">
+                                        <div class="description">
+                                            <h3>FOODS</h3>
+                                            <p>Local Foods</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card card-details card-right mt-2">
+                            <h2>Members are going </h2>
+                            <div class="members my-2">
+                                <img src="frontend/img/user1.png" class="members-image mr-2">
+                                <img src="frontend/img/user2.png" class="members-image mr-2">
+                                <img src="frontend/img/user3.png" class="members-image mr-2">
+                                <img src="frontend/img/user4.png" class="members-image mr-2">
+                                <img src="frontend/img/9+.png" class="members-image mr-2">
+                            </div>
+                            <hr>
+                            <h2>Trip Information</h2>
+                            <table class="trip-information">
+                                <tr>
+                                    <th width="50%">Data of depature</th>
+                                    <td width="50%" class="text-right">
+                                        22 Agus.2024
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th width="50%">Duraction</th>
+                                    <td width="50%" class="text-right">
+                                        4D / 3N
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th width="50%">Type of trip</th>
+                                    <td width="50%" class="text-right">
+                                        Open Trip
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th width="50%">Price</th>
+                                    <td width="50%" class="text-right">
+                                        $80.00/person
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="join-container">
+                            <a href="checkout.html" class="btn btn-block btn-join-now mt-3 py-2">Join Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- End Details -->
+
+    <!-- Footer -->
+    <footer class="section-footer mt-5 mb-4 border-top">
+        <div class="container pt-5 pb-5">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-lg-3">
+                            <h5>FEATURE</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Review</a></li>
+                                <li><a href="#">Community</a></li>
+                                <li><a href="#">Afilate</a></li>
+                                <li><a href="#">Social Media Kit</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5>ACCOUNT</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Refaund</a></li>
+                                <li><a href="#">Security</a></li>
+                                <li><a href="#">Reweds</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5>COMPANY</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Carear</a></li>
+                                <li><a href="#">Media</a></li>
+                                <li><a href="#">Help Center</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5>GET CONNECTED</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Tangerang Selatan</a></li>
+                                <li><a href="#">Indonesia</a></li>
+                                <li><a href="#">088--212--313</a></li>
+                                <li><a href="#">Support_travelin@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer>
+        <div class="container-fluid foter-bawah">
+            <div class="row justify-content-center align-items-center pt-4">
+                <div class="col-auto font-weight-light font">
+                    2024 Copyright Travelin • All rights reserved • Made in Bintaro
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+
+    <!--jequery-->
+    <script src="frontend/jequery/jquery-3.7.1.min.js"></script>
+    <!--Js Bootstrap4-->
+    <script src="frontend/bootstrap4/js/bootstrap.min.js"></script>
+    <!-- Retina Js -->
+    <script src="frontend/ratinajs/retina.min.js"></script>
+    <!-- Xzoom -->
+    <script src="frontend/dist/xzoom.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.xzoom, xzoom-gallery').xzoom({
+                zoomWidth: 500,
+                title: false,
+                tint: '#333',
+                Xoffset: 15
+            });
+        });
+    </script>
+</body>
+
+</html>
